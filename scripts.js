@@ -7,7 +7,7 @@ function addFive(){
 function addSum(){
     let val = document.getElementById("testbar").value
     let x = val + 50;
-    val = x;
+    document.getElementById("testbar").value = x;
 }
 document.cookie = "val = " + document.getElementById("testbar").value + ";";
 //not my code
