@@ -30,3 +30,5 @@ function getCookie(name) {
     // Return null if not found
     return null;
 }
+
+document.getElementById("testbar").value = getCookie(val);
