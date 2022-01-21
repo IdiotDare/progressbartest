@@ -4,7 +4,12 @@ function addFive(){
     let x = val + 50;
     val = x;
 }
-
+function addSum(){
+    let val = document.getElementById("testbar").value
+    let x = val + 50;
+    val = x;
+}
+document.cookie = "val = " + document.getElementById("testbar").value + ";";
 //not my code
 function getCookie(name) {
     // Split cookie string and get all individual name=value pairs in an array
