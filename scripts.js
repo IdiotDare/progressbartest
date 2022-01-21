@@ -1,5 +1,9 @@
 //document.cookie = "clicked = yes;"
-
+function addFive(){
+    let val = document.getElementById("level").value
+    let x = val + 50;
+    val = x;
+}
 
 //not my code
 function getCookie(name) {
